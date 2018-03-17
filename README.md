@@ -192,7 +192,6 @@ http://bbs.pediy.com/thread-155215.htm
 VMP Handler 分析插件 https://github.com/OoWoodOne/VMP_ODPlugin
 
 Zeus--VMProtect分析及自动脱壳插件 by ximo http://www.52pojie.cn/thread-129047-1-1.html
-2012-1-31 22:58 
 
 VMP调试器
 https://github.com/uvbs/VMPDBG2
@@ -208,20 +207,18 @@ https://github.com/Pigrecos/CodeDeobfuscator
 
 ## 会议PPT
 
-[KCon 2016 - VMProtect 的一次奇妙之旅 by 何潇潇](ppt/KCon2016_VMProtect_by_hxx.pdf)
+- [KCon 2016 - VMProtect 的一次奇妙之旅 by 何潇潇](ppt/KCon2016_VMProtect_by_hxx.pdf)
 
-[SecurityDay 2015 - Inside VMProtect by Samuel Chevet](ppt/SecurityDay2015_Inside_VMProtect_by_Samuel_Chevet.pdf)
+- [SecurityDay 2015 - Inside VMProtect by Samuel Chevet](ppt/SecurityDay2015_Inside_VMProtect_by_Samuel_Chevet.pdf)
 
-
-[CSAW 2016 - How Triton can help to reverse virtual machine based
+- [CSAW 2016 - How Triton can help to reverse virtual machine based
 software protections by Jonathan Salwan](ppt/CSAW2016_How_Triton_can_help_to_reverse_virtual_machine_based_software_protections.pdf)
 
+- [BlackHat 2013 - Removing virtualization obfuscations from malware – a DARPA Cyber Fast Track funded effort by Raber ](ppt/US-13-Raber-Virtual-Deobfuscator-A-DARPA-Cyber-Fast-Track-Funded-Effort-Slides.pdf)
 
-[BlackHat 2013 - Removing virtualization obfuscations from malware – a DARPA Cyber Fast Track funded effort by Raber ](ppt/US-13-Raber-Virtual-Deobfuscator-A-DARPA-Cyber-Fast-Track-Funded-Effort-Slides.pdf)
+- [中国软件安全峰会 2009 - VMProtect的逆向分析和静态还原 by Bughoho](ppt/VMProtect的逆向分析和静态还原.pdf)
 
-[中国软件安全峰会 2009 - VMProtect的逆向分析和静态还原 by Bughoho](ppt/VMProtect的逆向分析和静态还原.pdf)
-
-[CARO 2008 - Dealing with Virtualization packer by Boris Lau](ppt/CARO2008_Dealing_with_Virtualization_packer.pdf)
+- [CARO 2008 - Dealing with Virtualization packer by Boris Lau](ppt/CARO2008_Dealing_with_Virtualization_packer.pdf)
 
 
 ## 学术文章
@@ -238,31 +235,33 @@ software protections by Jonathan Salwan](ppt/CSAW2016_How_Triton_can_help_to_rev
 
 ## 其他
 
-2018年 FinSpy VM 分析及代码还原系列 by Rolf Rolles（该作者有十年以上的VM保护的研究经验，非常值得一读） 
-- [A WALK-THROUGH TUTORIAL, WITH CODE, ON STATICALLY UNPACKING THE FINSPY VM: PART ONE, X86 DEOBFUSCATION](http://www.msreverseengineering.com/blog/2018/1/23/a-walk-through-tutorial-with-code-on-statically-unpacking-the-finspy-vm-part-one-x86-deobfuscation)
+- 2018年 FinSpy VM 分析及代码还原系列 by Rolf Rolles（该作者有十年以上的VM保护的研究经验，非常值得一读） 
+  - [A WALK-THROUGH TUTORIAL, WITH CODE, ON STATICALLY UNPACKING THE FINSPY VM: PART ONE, X86 DEOBFUSCATION](http://www.msreverseengineering.com/blog/2018/1/23/a-walk-through-tutorial-with-code-on-statically-unpacking-the-finspy-vm-part-one-x86-deobfuscation)
 
-- [FINSPY VM PART 2: VM ANALYSIS AND BYTECODE DISASSEMBLY](http://www.msreverseengineering.com/blog/2018/1/31/finspy-vm-part-2-vm-analysis-and-bytecode-disassembly)
+  - [FINSPY VM PART 2: VM ANALYSIS AND BYTECODE DISASSEMBLY](http://www.msreverseengineering.com/blog/2018/1/31/finspy-vm-part-2-vm-analysis-and-bytecode-disassembly)
 
-- [FINSPY VM UNPACKING TUTORIAL PART 3: DEVIRTUALIZATION](http://www.msreverseengineering.com/blog/2018/2/21/finspy-vm-unpacking-tutorial-part-3-devirtualization)
+  - [FINSPY VM UNPACKING TUTORIAL PART 3: DEVIRTUALIZATION](http://www.msreverseengineering.com/blog/2018/2/21/finspy-vm-unpacking-tutorial-part-3-devirtualization)
 
+- [FinFisher VM分析 白皮书](https://www.welivesecurity.com/wp-content/uploads/2018/01/WP-FinFisher.pdf)
 
-[FinFisher VM分析 白皮书](https://www.welivesecurity.com/wp-content/uploads/2018/01/WP-FinFisher.pdf)
-
-[VMProtect 2.06全过程分析 by hkfans](https://bbs.pediy.com/thread-147164.htm)
-
-[Themida 1.2.0.1 全过程分析	by hkfans](https://bbs.pediy.com/thread-132522.htm)
-
-[Themida 1.9.1.x CICS Processor VM 简单分析 by softworm](note/softworm_Themida_1.9.1.x_CISC.pdf)
-
-[VMProtect 逆向分析 by aalss2](note/aalss2_Vmprotect.pdf)
-
-[VMSweeper 分析 by aalss2](note/aalss2_VMSweeper.pdf)
-
-[VMProtect 学习 by OoWoodOne](note/OoWoodOne_VMProtect.pdf)
-
-[Inside Code Virtualizer by scherzo  February 16  2007](note/2007_scherzo_Inside_Code_Virtualizer.pdf)
+- [ZeusVM analysis - Miasm's blog](http://www.miasm.re/blog/2016/09/03/zeusvm_analysis.html)
 
 
+- [汇集所有能帮助你对抗强壳的知识（VMP、SE、THEMIDA、Enigma）](https://bbs.pediy.com/thread-224537.htm)
 
+- [VMProtect 2.06全过程分析 by hkfans](https://bbs.pediy.com/thread-147164.htm)
 
+- [Themida 1.2.0.1 全过程分析	by hkfans](https://bbs.pediy.com/thread-132522.htm)
+
+- [Themida 1.9.1.x CICS Processor VM 简单分析 by softworm](note/softworm_Themida_1.9.1.x_CISC.pdf)
+
+- [人肉某CM-VMP2.13.8 Vmcode (可视化) by Sound](http://www.52pojie.cn/thread-454649-1-1.html)
+
+- [VMProtect 逆向分析 by aalss2](note/aalss2_Vmprotect.pdf)
+
+- [VMSweeper 分析 by aalss2](note/aalss2_VMSweeper.pdf)
+
+- [VMProtect 学习 by OoWoodOne](note/OoWoodOne_VMProtect.pdf)
+
+- [Inside Code Virtualizer by scherzo  February 16  2007](note/2007_scherzo_Inside_Code_Virtualizer.pdf)
 
