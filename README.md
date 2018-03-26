@@ -252,7 +252,7 @@ software protections by Jonathan Salwan](ppt/CSAW2016_How_Triton_can_help_to_rev
 		- [[原创]让 Safengine Shielden 2.0.3.0 可受调试](https://bbs.pediy.com/thread-130066.htm)
 		- [[原创]Safengine Shielden2.00全保护脱壳总结](https://bbs.pediy.com/thread-129601.htm)
 		- [[原创]Safengine Shielden 2.3.8.0 脱壳 ∷之∷ 为了能下断](https://bbs.pediy.com/thread-216959.htm)
-		- [[原创]Safengine Shielden 2.3.8.0 脱壳 ∷之∷ 修复](IAThttps://bbs.pediy.com/thread-219292.htm)
+		- [[原创]Safengine Shielden 2.3.8.0 脱壳 ∷之∷ 修复IAT](https://bbs.pediy.com/thread-219292.htm)
 
 	- Themida
 		- [[原创]Themida VM 代码还原](https://bbs.pediy.com/thread-82265.htm)
