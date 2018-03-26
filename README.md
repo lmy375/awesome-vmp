@@ -6,6 +6,8 @@
 
 文章篇介绍了VM保护相关的分析文章，包括对虚拟机的分析，及一些反混淆方法。
 
+**声明**： 感谢所有相关研究者对研究内容的公开发布。本 repo 中所有资源来自互联网，**版权属于原作者**。（个别PDF、PPT为**仅为方便下载**，上传到本repo中）。
+
 # 工具篇
 
 ## FKVMP
@@ -231,27 +233,60 @@ software protections by Jonathan Salwan](ppt/CSAW2016_How_Triton_can_help_to_rev
 - Coogan, K. and G. Lu, et al. (2011). Deobfuscation of virtualization-obfuscated software: a semantics-based approach. ACM Conference on Computer and Communications Security, CCS 2011, Chicago, Illinois, Usa, October.
 - Rolles, R. (2009). Unpacking virtualization obfuscators.
 - Sharif, M. and A. Lanzi, et al. (2009). Automatic Reverse Engineering of Malware Emulators. IEEE Symposium on Security and Privacy.
-
+- （具体文章可通过 Google Scholar、百度学术进行搜索下载）
 
 ## 其他
 
-- 2018年 FinSpy VM 分析及代码还原系列 by Rolf Rolles（该作者有十年以上的VM保护的研究经验，非常值得一读） 
-  - [A WALK-THROUGH TUTORIAL, WITH CODE, ON STATICALLY UNPACKING THE FINSPY VM: PART ONE, X86 DEOBFUSCATION](http://www.msreverseengineering.com/blog/2018/1/23/a-walk-through-tutorial-with-code-on-statically-unpacking-the-finspy-vm-part-one-x86-deobfuscation)
+- [汇集所有能帮助你对抗强壳的知识（VMP、SE、THEMIDA、Enigma）](https://bbs.pediy.com/thread-224537.htm)
+	- 看雪论坛关于虚拟机保护的精华分析文章，包括4款虚拟机壳的分析
+	- VMProtect 
+		- [[原创]VMProtect1.09分析](https://bbs.pediy.com/thread-221681.htm)
+		- [[原创]简单分析VMProtect V1.10](https://bbs.pediy.com/thread-224204.htm)
+		- [[原创]人肉跟踪VMProtect样本入口出口运行全过程](https://bbs.pediy.com/thread-220689.htm)
+		- [[原创]VMProtect 2.06全过程分析](https://bbs.pediy.com/thread-147164.htm)
+		- [[翻译]About VMProtect库](https://bbs.pediy.com/thread-134472.htm)
+		- [[原创]VMProtect逆向分析](https://bbs.pediy.com/thread-113223.htm)
+		- [[原创]VMProtect加密程序解析](https://bbs.pediy.com/thread-120127.htm)
+		- [[原创]VMProtect 1.6x的一点心得](https://bbs.pediy.com/thread-63844.htm)
+	- Safengine:
+		- [[原创]让 Safengine Shielden 2.0.3.0 可受调试](https://bbs.pediy.com/thread-130066.htm)
+		- [[原创]Safengine Shielden2.00全保护脱壳总结](https://bbs.pediy.com/thread-129601.htm)
+		- [[原创]Safengine Shielden 2.3.8.0 脱壳 ∷之∷ 为了能下断](https://bbs.pediy.com/thread-216959.htm)
+		- [[原创]Safengine Shielden 2.3.8.0 脱壳 ∷之∷ 修复](IAThttps://bbs.pediy.com/thread-219292.htm)
 
-  - [FINSPY VM PART 2: VM ANALYSIS AND BYTECODE DISASSEMBLY](http://www.msreverseengineering.com/blog/2018/1/31/finspy-vm-part-2-vm-analysis-and-bytecode-disassembly)
+	- Themida
+		- [[原创]Themida VM 代码还原](https://bbs.pediy.com/thread-82265.htm)
+		- [[原创]Themida & WinLicen 1.9.1 - 1.9.5 系列脱壳脚本](https://bbs.pediy.com/thread-59186.htm)
+		- [对themida(1.8.5.5)加密VC++程序的完美脱壳](https://bbs.pediy.com/thread-69294.htm)
+		- [[原创]Themida的另类破解](https://bbs.pediy.com/thread-72152.htm)
+		- [[原创]Themida 1.2.0.1 全过程分析](https://bbs.pediy.com/thread-132522.htm)
+		- [脱壳手记---themida(1.8.5.5)](https://bbs.pediy.com/thread-172921.htm)
+		- [[原创]菜鸟脱壳---Themida](https://bbs.pediy.com/thread-192834.htm)
+		- [[原创]Themida 2260 虚拟机 FISH 初探(一)](https://bbs.pediy.com/thread-208207.htm)
+		- [[原创]Themida 2260 虚拟机 FISH 初探 （二）](https://bbs.pediy.com/thread-208217.htm)
 
-  - [FINSPY VM UNPACKING TUTORIAL PART 3: DEVIRTUALIZATION](http://www.msreverseengineering.com/blog/2018/2/21/finspy-vm-unpacking-tutorial-part-3-devirtualization)
+	- Enigma:
+		- [[原创]Enigma Protector脱壳](https://bbs.pediy.com/thread-140629.htm)
+		- [[原创]过Enigma Protector 2.xx 注册保护](https://bbs.pediy.com/thread-126331.htm)
+		- [[原创]手动脱壳Enigma Protector过程](https://bbs.pediy.com/thread-122198.htm)
+		- [[原创]Enigma 1.66正式版试练品脱壳笔记](https://bbs.pediy.com/thread-107804.htm)
+		- [[原创]手脱The Enigma Protector1.55默认保护](https://bbs.pediy.com/thread-77905.htm)
+		- [[原创]Enigma VM的分析](https://bbs.pediy.com/thread-56063.htm)
 
-- [FinFisher VM分析 白皮书](https://www.welivesecurity.com/wp-content/uploads/2018/01/WP-FinFisher.pdf)
+
+- FinSpy VM (2018年 FinSpy VM 分析及代码还原系列 by Rolf Rolles（该作者有十年以上的VM保护的研究经验，非常值得一读） )
+	- 看雪论坛翻译版 by houjingyi 
+		- [[翻译]手把手静态分析FinSpy VM：第一部分，x86去混淆](https://bbs.pediy.com/thread-224911.htm)
+		- [[翻译]手把手静态分析FinSpy VM：第二部分，VM分析和字节码反汇编](https://bbs.pediy.com/thread-225081.htm)
+		- [[翻译]手把手静态分析FinSpy VM：第三部分，去虚拟化](https://bbs.pediy.com/thread-225273.htm)
+	- 原文链接
+		- [A WALK-THROUGH TUTORIAL, WITH CODE, ON STATICALLY UNPACKING THE FINSPY VM: PART ONE, X86 DEOBFUSCATION](http://www.msreverseengineering.com/blog/2018/1/23/a-walk-through-tutorial-with-code-on-statically-unpacking-the-finspy-vm-part-one-x86-deobfuscation)
+		- [FINSPY VM PART 2: VM ANALYSIS AND BYTECODE DISASSEMBLY](http://www.msreverseengineering.com/blog/2018/1/31/finspy-vm-part-2-vm-analysis-and-bytecode-disassembly)
+		- [FINSPY VM UNPACKING TUTORIAL PART 3: DEVIRTUALIZATION](http://www.msreverseengineering.com/blog/2018/2/21/finspy-vm-unpacking-tutorial-part-3-devirtualization)
+	- 另一篇关于 相关分析白皮书
+		- [FinFisher VM分析 白皮书](https://www.welivesecurity.com/wp-content/uploads/2018/01/WP-FinFisher.pdf)
 
 - [ZeusVM analysis - Miasm's blog](http://www.miasm.re/blog/2016/09/03/zeusvm_analysis.html)
-
-
-- [汇集所有能帮助你对抗强壳的知识（VMP、SE、THEMIDA、Enigma）](https://bbs.pediy.com/thread-224537.htm)
-
-- [VMProtect 2.06全过程分析 by hkfans](https://bbs.pediy.com/thread-147164.htm)
-
-- [Themida 1.2.0.1 全过程分析	by hkfans](https://bbs.pediy.com/thread-132522.htm)
 
 - [Themida 1.9.1.x CICS Processor VM 简单分析 by softworm](note/softworm_Themida_1.9.1.x_CISC.pdf)
 
