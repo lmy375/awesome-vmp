@@ -119,7 +119,7 @@ mov eax, 0beefdeadh
 
 该工具是少见的可以将 VMProtect 保护代码进行完整还原的工具，缺点是稳定性太差，对于稍复杂的程序，还原过程很大可能会出现异常报错。
 
-根据工具的说明，似乎是应该支持 Code Virtualizer的。测试成功还原 Code Virtualizer 1.3.8 版本未成功。
+根据工具的说明，似乎是应该支持 Code Virtualizer的。测试还原 Code Virtualizer 1.3.8 版本未成功。
 
 ## Oreans UnVirtualizer 
 
